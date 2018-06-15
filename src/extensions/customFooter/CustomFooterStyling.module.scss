@@ -1,0 +1,104 @@
+.bottomFooterExpanded {
+  position: fixed;
+  bottom: 0;
+  display: inline-flex;
+  width: 100%;
+  height: 120px; /* Height of the footer */
+  -webkit-transition: height 1s, visibility 1s;
+  transition: height 1s, visibility 1s;
+}
+.bottomFooterMinimized {
+  height: 30px !important;
+  color: green;
+}
+.outlookIcon {
+  padding: 0.75%;
+  float: left;
+  width: 10%;
+  width: min($numbers: 80px);
+  height: 120px;
+  font-size: 80px;
+  transition: all 1s ease-out;
+}
+.outlookIconMinimized {
+  float: left;
+  width: 10%;
+  width: min($numbers: 80px);
+  font-size: 20px;
+  padding: 2px;
+  transition: all 0.7s ease-out;
+}
+.footerText {
+  text-overflow: clip;
+  line-height: 1.6;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 70%;
+  float: left;
+  font-size: 15px;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+.footerTextMinimized {
+  width: 70%;
+  float: left;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 1s, opacity 0.7s;
+}
+.footerRightIcons {
+  position: fixed;
+  right: 0px;
+  width: 10%;
+  width: min($numbers: 80px);
+  i {
+    float: right;
+    margin-top: 6px;
+    margin-right: 6px;
+    cursor: pointer;
+  }
+}
+.isReadButton {
+  width: 5%;
+  width: min($numbers: 80px);
+  border: 0px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.isReadButton:hover {
+  width: 5%;
+  width: min($numbers: 80px);
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+.isReadButtonMinimized {
+  width: 5%;
+  width: min($numbers: 80px);
+  border: 0px;
+  cursor: pointer;
+  opacity: 0;
+  transition: visibility 0s 1s, opacity 0.7s;
+}
+.deleteButton {
+  width: 5%;
+  width: min($numbers: 80px);
+  border: 0px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.deleteButton:hover {
+  width: 5%;
+  width: min($numbers: 80px);
+  background-color: #f44336;
+  color: white;
+  cursor: pointer;
+}
+.deleteButtonMinimized {
+  width: 5%;
+  width: min($numbers: 80px);
+  border: 0px;
+  cursor: pointer;
+  opacity: 0;
+  transition: visibility 0s 1s, opacity 0.7s;
+}

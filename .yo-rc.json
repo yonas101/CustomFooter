@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "custom-footer",
+    "libraryId": "7d0fbda4-ec2f-4618-8982-a82c0f7ff7e5",
+    "environment": "spo"
+  }
+}
