@@ -1,26 +1,4 @@
-## custom-footer
-
-This is where you include your WebPart documentation.
-
-### Building the code
-
-```bash
-git clone the repo
-npm i
-npm i -g gulp
-gulp
-```
-
-This package produces the following:
-
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
-
-### Build options
-
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+My thesis project from school where i made a Custom Footer as an extension in SharePoint Framework,
+Im using MS Graph to get last unread mail from the logged in users mailbox and displaying that data in the footer, 
+functions to mark mail as read and delete mail is also implemented using MS Graph api calls,
+(beware that the delete function really DELETES the current mail and not moves it to outlooks deleted folder)
